@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: url("https://picsum.photos/1200/1000?grayscale") center/cover no-repeat fixed;
+
+}
+
+.buttons{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+kbd{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 40px ;
+    padding: 10px;
+    border: solid 4px cadetblue;
+    width: 200px;
+    align-items: center;
+    border-radius: 20px;
+    transition: all ease 0.7s;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: crimson;
+}

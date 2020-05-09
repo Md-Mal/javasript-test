@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+header{
+    margin:20px 20px;
+}
+
+header h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+
+.search-form-area{
+    width: 50vw;
+    margin: 15px;
+}
+
+.contact{
+    background-color: antiquewhite;
+    width: 70%;
+    padding: 10px;
+}
+
+.contact li{
+    list-style: none;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+.letter__group-name a{
+    text-decoration: none;
+}
+
+.group-letter__letter{
+    font-size: 3rem;
+}
+
+
+.search-form-area:focus{
+  transform: scale(1.02);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hide{
+  display: none !important;
+  padding: 0 !important;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+    <form action="submit" method="post" class="center">
+        <nav class="area">
+            <h1> my <span class="colorSpan">favourite</span><span><i class="fas fa-bookmark"></i></span>movie</h1>
+        </nav>
+        <label for="title" class="label-1">title</label>
+        <br>
+        <input type="text" name="title" id="title">
+
+        <br>
+        <label for="rating">rating</label>
+        <br>
+        <input type="text" name="rating" id="rating">
+
+        <br>
+        <label for="title">genre</label>
+        <br>
+        <input type="text" name="genre" id="genre" class="genre">
+        <br>
+        <input type="submit" value="Add Movie" class="btnSubmit">
+        <table class="w3-table">
+            <thead>
+            <tr>
+                <td>Title</td>
+                <td>Rating</td>
+                <td>Genre</td>
+            </tr>
+            </thead>
+            <tbody class="movie-list">
+
+            </tbody>
+
+        </table>
+
+    </form>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
