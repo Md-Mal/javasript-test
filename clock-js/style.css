@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://picsum.photos/1200/800?grayscale");
+    
+}
+
+.clock-area{
+    width: 420px;
+    height: 420px;
+    border: 10px solid green;
+    border-radius: 50%;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all ease .7s;
+    position: relative;
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    background-color: black;
+    transform-origin: 100%;
+    position: absolute;
+    transform: rotate(160deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
