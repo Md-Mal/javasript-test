@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:root{
+    --color: black;
+    --spacing: 10px;
+    --blur:1px;
+}
+
+.control{
+    margin: 20px;
+}
+
+img{
+    background: var(--color);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+
+}
+
+h1{
+    color: var(--color);
+}
